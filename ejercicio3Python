@@ -1,0 +1,4 @@
+peso = 95
+ estatura = 1.90
+ imc = round (peso / (estatura**2), 2)
+ print (imc)
