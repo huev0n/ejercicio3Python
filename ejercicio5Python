@@ -1,0 +1,14 @@
+def bisiesto (anyo):
+    if (anyo % 100 == 0):
+        if (anyo % 400 == 0):
+            print('El año', anyo, 'es bisiesto')
+        else:
+            print ('El año',anyo,'no es bisiesto')
+    else:
+        if (anyo % 4 == 0):
+            print('El año', anyo, 'es bisiesto')
+        else:
+            print ('El año',anyo,'no es bisiesto')
+
+
+bisiesto(2000)
